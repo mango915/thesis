@@ -1,0 +1,55 @@
+% chktex-file 46
+%!TeX spellcheck = en-US,it-IT
+\RequirePackage{silence} % :-\
+\WarningFilter{scrreprt}{Usage of package `titlesec'}
+\WarningFilter{titlesec}{Non standard sectioning command detected}
+\documentclass[ twoside,openright,titlepage,numbers=noenddot,%1headlines,
+ headinclude,footinclude,cleardoublepage=empty,abstract=on,
+ BCOR=5mm,paper=a4,fontsize=11pt
+]{scrreprt}
+%\usepackage{subfigure}
+\input{classicthesis-config}
+\usepackage{setspace}
+\usepackage{verbatim}
+\usepackage{amsthm}
+\usepackage{todonotes}
+\usepackage{wrapfig}
+\usepackage{listings}
+\usepackage{relsize}
+\usepackage{sidecap}
+\usepackage{float}
+\usepackage[binary-units=true]{siunitx}
+\DeclareMathOperator{\tg}{tg}
+\theoremstyle{plain}
+\newtheorem*{teorema}{Theorem}
+\addbibresource{Bibliography.bib}
+\DefineBibliographyStrings{english}{phdthesis = {thesis}}
+\newcommand\CC{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{++}}}}
+\newcommand{\me}{\mathrm{e}}
+%\renewcommand{\floatpagefraction}{.8}%
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{english}
+\pagestyle{plain}
+
+% Frontmatter
+\include{FrontBackmatter/Titlepage}
+\cleardoublepage\include{FrontBackmatter/Abstract}
+\cleardoublepage\include{FrontBackmatter/Contents}
+
+% Mainmatter
+\pagestyle{scrheadings}
+\part{Introduction}\label{pt:introduction}
+\chapter{The physics of data}
+\include{Chapters/Chapter01}
+\include{Chapters/Chapter02}
+%\ctparttext{}
+\part{Results}\label{pt:results}
+\include{Chapters/Chapter03}
+
+
+% Backmatterasdasdasd
+\appendix
+\cleardoublepage\include{FrontBackmatter/Bibliography}
+\end{document}
