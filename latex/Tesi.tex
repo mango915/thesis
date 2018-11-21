@@ -40,16 +40,48 @@
 
 % Mainmatter
 \pagestyle{scrheadings}
-\part{Introduction}\label{pt:introduction}
-\chapter{The physics of data}
+\chapter{Introduction}
+In every day work, high energy physics scientists have to deal with a lot of
+data (the \textit{big data}), the effort required to manage and process
+this amount of data is a large data is a important and extensive part of a
+physicist's work.
+The latest developments in the field of machine learning showed that the
+usage of deep neural networks can help facing signal background discrimination
+problems. The usage of these techniques can speed up the research field of high
+energy physics in various ways. They can compare multiple theories at the same
+tame (New Physics) against the standard model. Taking as example the CMS
+experiment, the actual trigger system are built upon physicists hypothesis,
+unexpected events are almost certain lost. These techniques could help solve
+these problems. The greatest obstacle to the usage of these methods is the
+needed effort of computational resources. These algorithms are slow to train
+and bring new technical challenges when it comes to making predictions.
+
+The aim of this thesis is to show that the smart usage of computational
+resources with new promising paradigms such as the clustering computing
+and GPU architectures can help reduce the time required in these computations.
+
+
+\part{Background}\label{pt:Background}
 \include{Chapters/Chapter01}
 \include{Chapters/Chapter02}
 %\ctparttext{}
 \part{Results}\label{pt:results}
 \include{Chapters/Chapter03}
 
+\chapter{Conclusion}
+In this thesis work new computational paradigms have been explored. The results
+with cluster architecture seems promising. They show that this technique has a
+good capability to scale as the number of nodes and computational resources
+increases. This characteristic can be exploit for develop large scale system.
 
-% Backmatterasdasdasd
+Results with GPUs show that them can compete with cluster computing but seems
+less encouraging than expected. This can be related with a number of factors such
+as, for example, the kind of problem, the implementation or the hyperparameters choice.
+
+Nevertheless, the results are promising, clustering and GPUs are definitely good
+ways to improve performance of deep neural networks for solve a discrimination signal background problem.
+
+% Backmatter
 \appendix
 \cleardoublepage\include{FrontBackmatter/Bibliography}
 \end{document}

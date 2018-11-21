@@ -1,5 +1,6 @@
 % chktex-file 46
 %!TeX spellcheck = en-US,it-IT
+
 \chapter{The Problem}
 
 The scope of this thesis is considering a classic signal-background
@@ -70,8 +71,6 @@ To achieve this we choose a \textit{loss function} that has the
 characteristic to become smaller and smaller as the model learn, \eg~
 perform better. Hence, the job is minimizing this function. In order to achieve
 it several optimizing algorithms, or optimizers, exist.
-The description of (some of these/the smoothest one: sgd) is given in
-the next section.
 
 Had obtained the neural network model, it is remarkable to note that there
 is a theorem that states~\cite{theorem}
@@ -91,12 +90,6 @@ On the other hand, the learning process itself must be
 performed taking into account a series of issues that can lead to
 underfitting or overfitting. Refer to~\cite{deeplearningbook} regarding
 this (vast) topic.
-\subsection{SGD}
-The algorithm. A brief derivation. Some formulas.
-
-
-\subsection{others..?}
-Same.
 
 \section{the physics of LHC}
 
@@ -160,7 +153,7 @@ processes.
 
 \begin{figure}[H]
  \centering
- \includegraphics[scale=0.05]{figures/CMSslice.png}
+ \includegraphics[scale=0.045]{figures/CMSslice.png}
  \caption{A transverse section of the CMS detector}
  \label{}
 \end{figure}
@@ -267,7 +260,7 @@ events is available in the UCI machine learning
 repository.\footnote{https://archive.ics.uci.edu/ml/datasets/HIGGS}
 
 
-\section{The setup (bigdl?)}
+\section{The setup}
 
 The used hardware is composed by a six nodes (computers) cluster hosted by
 Cloudveneto\footnote{https://cloudveneto.ict.unipd.it/} and a GPU machine

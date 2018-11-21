@@ -5,18 +5,17 @@
 \babel@toc {english}{}
 \babel@toc {italian}{}
 \babel@toc {english}{}
-\contentsline {part}{\numberline {i}{Introduction}}{7}{part.1}
-\contentsline {chapter}{\numberline {1}{The physics of data}}{9}{chapter.1}
+\contentsline {chapter}{\numberline {1}{Introduction}}{7}{chapter.1}
+\contentsline {part}{\numberline {i}{Background}}{9}{part.1}
 \contentsline {chapter}{\numberline {2}{The Problem}}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}{Deep Neural Networks}}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}{SGD}}{13}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}{others..?}}{13}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}{the physics of LHC}}{13}{section.2.2}
 \contentsline {section}{\numberline {2.3}{The benchmark dataset HIGGS}}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}{The setup (bigdl?)}}{17}{section.2.4}
-\contentsline {chapter}{\numberline {3}{Neural Networks performance analysis}}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}{Shallow and deep Neural Networks performance}}{23}{section.3.1}
-\contentsline {part}{\numberline {ii}{Results}}{27}{part.2}
-\contentsline {chapter}{\numberline {4}{Cluster scalability}}{29}{chapter.4}
+\contentsline {section}{\numberline {2.4}{The setup}}{17}{section.2.4}
+\contentsline {chapter}{\numberline {3}{Neural Networks performance analysis}}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}{Shallow and deep Neural Networks performance}}{21}{section.3.1}
+\contentsline {part}{\numberline {ii}{Results}}{25}{part.2}
+\contentsline {chapter}{\numberline {4}{Cluster scalability}}{27}{chapter.4}
+\contentsline {chapter}{\numberline {5}{Conclusion}}{29}{chapter.5}
 \vspace {\beforebibskip }
 \contentsline {chapter}{\numberline {}{Bibliography}}{31}{section*.18}

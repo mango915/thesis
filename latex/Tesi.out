@@ -1,17 +1,16 @@
 \BOOKMARK [1][-]{Abstract.1}{Abstract}{}% 1
 \BOOKMARK [1][-]{Sommario.1}{Sommario}{}% 2
 \BOOKMARK [1][-]{tableofcontents.1}{Contents}{}% 3
-\BOOKMARK [-1][]{part.1}{ Introduction}{}% 4
-\BOOKMARK [0][]{chapter.1}{1 The physics of data}{part.1}% 5
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 4
+\BOOKMARK [-1][]{part.1}{ Background}{}% 5
 \BOOKMARK [0][]{chapter.2}{2 The Problem}{part.1}% 6
 \BOOKMARK [1][-]{section.2.1}{2.1 Deep Neural Networks}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 SGD}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 others..?}{section.2.1}% 9
-\BOOKMARK [1][-]{section.2.2}{2.2 the physics of LHC}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{2.3 The benchmark dataset HIGGS}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.4}{2.4 The setup \(bigdl?\)}{chapter.2}% 12
-\BOOKMARK [0][]{chapter.3}{3 Neural Networks performance analysis}{part.1}% 13
-\BOOKMARK [1][-]{section.3.1}{3.1 Shallow and deep Neural Networks performance}{chapter.3}% 14
-\BOOKMARK [-1][]{part.2}{ Results}{}% 15
-\BOOKMARK [0][]{chapter.4}{4 Cluster scalability}{part.2}% 16
-\BOOKMARK [0][]{section*.18}{ Bibliography}{part.2}% 17
+\BOOKMARK [1][-]{section.2.2}{2.2 the physics of LHC}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{2.3 The benchmark dataset HIGGS}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{2.4 The setup}{chapter.2}% 10
+\BOOKMARK [0][]{chapter.3}{3 Neural Networks performance analysis}{part.1}% 11
+\BOOKMARK [1][-]{section.3.1}{3.1 Shallow and deep Neural Networks performance}{chapter.3}% 12
+\BOOKMARK [-1][]{part.2}{ Results}{}% 13
+\BOOKMARK [0][]{chapter.4}{4 Cluster scalability}{part.2}% 14
+\BOOKMARK [0][]{chapter.5}{5 Conclusion}{part.2}% 15
+\BOOKMARK [0][]{section*.18}{ Bibliography}{part.2}% 16
